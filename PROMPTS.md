@@ -24,3 +24,28 @@ Principle: record your **reasoning**, not just prompts.
 
 ---
 (이슈 단위로 반복 / repeat per issue)
+
+---
+## 2026-09-09 · 메모 검색 기능 (2주차 활동)
+
+**지시**
+[지시]
+메모 검색 기능을 추가해줘. 제목과 본문에서 키워드로 검색된다.
+
+[규약]
+첨부한 CONVENTIONS.md 내용 참고하기
+
+[근거]
+첨부한 schema.sql, service.js, routes.js 내용 참고하기
+
+[종료조건]
+- GET /memos/search?q=키워드 로 호출된다
+- 제목 또는 본문에 키워드가 포함된 메모만 반환한다
+- 본인 메모만 반환한다
+- q가 비어 있으면 400과 { ok: false, error } 를 반환한다
+
+**채택 여부**
+(전체 채택)
+
+**참고**
+(있으면)
