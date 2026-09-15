@@ -12,10 +12,10 @@
 
  `memo-seed` 저장소를 엽니다. 다음 파일이 있는지 확인하세요.
 
-- [ ] `schema.sql`
-- [ ] `service.js`
-- [ ] `routes.js`
-- [ ] `CONVENTIONS.md`
+- [O] `schema.sql`
+- [O] `service.js`
+- [O] `routes.js`
+- [O] `CONVENTIONS.md`
 
 ---
 
@@ -163,11 +163,11 @@ CONVENTIONS.md라는 규약 md 파일을 준 것이 결과를 가장 크게 바�
 (있으면)
 ```
 
-- [ ] `PROMPTS.md`에 추가하고 커밋했습니다
+- [O] `PROMPTS.md`에 추가하고 커밋했습니다
 
 ---
 
 ## 6. 제출 확인
 
-- [ ] 이 활동지를 저장소에 커밋했습니다
-- [ ] `PROMPTS.md`를 커밋했습니다
+- [O] 이 활동지를 저장소에 커밋했습니다
+- [O] `PROMPTS.md`를 커밋했습니다
