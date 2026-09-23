@@ -1,39 +1,44 @@
-# 4주차 — 명세 주도 개발 Ⅰ — 요구 명세와 EARS
-### Week 4 — Spec-Driven Development I — Requirements and EARS
+# 4주차 활동지 / Week 4 Worksheet
 
-[← 목록으로 / Back to index](../README.md)
+**주제 선택과 요구 명세 / Choosing a problem & writing the spec**
 
-## 학습 목표 / Objectives
-
-- PBL 문제의 조건을 설명할 수 있다
-- 전공 맥락에서 해결할 가치가 있는 문제를 도출할 수 있다
-
-## 핵심 개념 / Key concepts
-
-- 문제 정의의 4요소 — 사용자 / 상황 / 페인포인트 / 성공 기준
-- 좋은 문제의 조건과 흔한 실패 유형
-- 주제 승인 3요건
-
-## 이번 주 할 일 / What to do
-
-- [ ] 불편 10개 나열 → 유사한 것 묶기 → 후보 3개 선정
-- [ ] 후보별 4요소 채우기
-
-## 준비물 / Prepare before class
-
-- 팀원 외 3명에게 확인 인터뷰 (다음 주까지)
+- 작성일 / Date: 
+- 참여자 / Present: 
 
 ---
 
-## 활동지 / Worksheet
+## ① 주제 선택 / Choosing one problem
 
-- 원본 보기 / View original: [`docs/week-04.md`](https://github.com/alice-hyuerica/aix-team-template/blob/main/docs/week-04.md)
-- 작성 위치 / Where to write: **여러분 팀 저장소의** `docs/week-04.md`
-- 제출 / Submit: 수업 종료 시 커밋 → 커밋 URL을 LMS에 제출
+| 항목 Item | 내용 |
+|---|---|
+| 선택한 주제 Chosen |  |
+| 선택 근거 Why |  |
 
-## 윤리 노트 / Ethics Note
+## ② 성공 기준 가져오기 / Success criteria from Week 3
 
-이번 주 윤리 노트는 **LMS 4주차 과제란에 개인으로 제출**합니다. (150~300자)
-저장소에 올리지 않습니다.
+| 3주차 성공 기준 원문 Original (Week 3) | 모호한 표현 Vague words |
+|---|---|
+| *(예시) 학생들이 과제 제출 현황을 쉽게 확인할 수 있다* | *쉽게, 확인할 수 있다* |
+|  |  |
 
-*Submit this week's ethics note individually on the LMS (150–300 characters). Not in the repository.*
+## ③ Acceptance Criteria
+
+최소 정상 경로 2개 + 실패 경로 1개. **판정 방법** 칸이 비면 아직 명세가 아닙니다.
+At least two normal paths + one failure path. If "How to check" is empty, it is not yet a spec.
+
+| # | 경로 Path | EARS 문장 Sentence | 판정 방법 How to check |
+|---|---|---|---|
+| *예시* | *정상* | *WHEN 학생이 과제 목록을 열면 THE 시스템은 SHALL 과목별 미제출 과제를 마감일 순으로 표시한다* | *미제출 과제 3건을 만든 뒤 목록을 열어 마감일 순으로 나오는지 확인* |
+| AC-1 | 정상 Normal | WHEN  THE  SHALL  |  |
+| AC-2 | 정상 Normal | WHEN  THE  SHALL  |  |
+| AC-3 | 실패 Failure | IF  THEN THE  SHALL  |  |
+
+> 확인할 동작이 더 있으면 AC-4부터 행을 추가해 쓰십시오.
+> If there are more behaviors to check, add rows from AC-4.
+
+- [ ] 이번 활동에서 AI를 사용했다면 `PROMPTS.md`에 기록했습니다 / Logged any AI use in `PROMPTS.md`
+
+---
+
+> 수업 종료 시 커밋하세요 / Commit this at the end of class
+> `git add docs/week-04.md && git commit -m "docs: 4주차 활동지 작성"`
