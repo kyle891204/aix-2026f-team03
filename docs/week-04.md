@@ -2,8 +2,8 @@
 
 **주제 선택과 요구 명세 / Choosing a problem & writing the spec**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 260923
+- 참여자 / Present: 강수연, 김용태, 송선우, 이재림
 
 ---
 
