@@ -30,9 +30,9 @@ At least two normal paths + one failure path. If "How to check" is empty, it is 
 | # | 경로 Path | EARS 문장 Sentence | 판정 방법 How to check |
 |---|---|---|---|
 | *예시* | *정상* | *WHEN 학생이 과제 목록을 열면 THE 시스템은 SHALL 과목별 미제출 과제를 마감일 순으로 표시한다* | *미제출 과제 3건을 만든 뒤 목록을 열어 마감일 순으로 나오는지 확인* |
-| AC-1 | 정상 Normal | WHEN  THE  SHALL  |  |
-| AC-2 | 정상 Normal | WHEN  THE  SHALL  |  |
-| AC-3 | 실패 Failure | IF  THEN THE  SHALL  |  |
+| AC-1 | 정상 Normal | WHEN 유학생이 자신의 국적, 비자종류, 거주형태 등의 정보를 등록 및 저장하면 THE 시스템은 SHALL 해당 조건에 부합하는 필수 행정 타임라인과 맞춤형 학사 공지를 분류하여 대시보드에 표시한다. | 특정 국적과 특정 비자 조건을 가진 테스트 계정으로 로그인 했을 때, 해당 조건에만 해당하는 공지와 학사일정이 대시보드에 필터링되어 노출되는지 확인한다. |
+| AC-2 | 정상 Normal | WHEN 사용자가 다국어 커뮤니티 게시판에 모국어로 질문 글을 등록하면 THE 시스템은 SHALL 해당 글을 열람하는 다른 사용자의 앱 설정 언어로 자동 번역하여 화면에 제공한다.  | 중국어로 작성된 테스트글을 등록한 뒤, 앱 설정 언어가 한국어 또는 영어인 다른 계정으로 접속하여 해당 글이 설정 언어로 정상 번역되어 보이는지 확인한다 |
+| AC-3 | 실패 Failure | IF 사용자가 필수 프로필 정보를 누락한 상태로 맞춤 타임라인 생성을 요청하는 경우 THEN THE 시스템은 SHALL 타임라인 생성을 중단하고 누락된 필수 정보를 기입하라는 경고 팝업 메세지를 표시한다. | 필수 정보인 거주형태를 빈칸으로 둔 채 타임라인 생성 버튼을 클릭했을 때, 프로세스가 멈추고 정보 입력 요구 알림창이 뜨는지 확인한다. |
 
 > 확인할 동작이 더 있으면 AC-4부터 행을 추가해 쓰십시오.
 > If there are more behaviors to check, add rows from AC-4.
