@@ -7,8 +7,9 @@
 ## 1. 아키텍처 다이어그램 / Architecture Diagram
 
 손그림 사진을 올리고 링크하십시오 / Upload a photo and link it.
+<img width="912" height="331" alt="image" src="https://github.com/user-attachments/assets/f7558649-5def-438c-b03f-703328bef186" />
 
-![architecture](img/week-07-arch.png)
+
 
 | 계층 / Layer | 모듈·파일 / Modules | 의존하지 않는 것 / Does not depend on |
 |---|---|---|
