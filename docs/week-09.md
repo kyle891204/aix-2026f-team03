@@ -2,8 +2,8 @@
 
 **개발 착수 / Starting development**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 2026.11.02.
+- 참여자 / Present: 강수연, 김용태, 송선우, 이재림
 
 ---
 
